@@ -1,0 +1,39 @@
+.header {
+display: flex;
+justify-content: space-between;
+}
+
+h1 {
+    border-style: solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-left: 20px;
+    border-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    color: black;
+}
+ul li:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+}
