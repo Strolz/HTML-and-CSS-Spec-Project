@@ -1,6 +1,15 @@
+
+body {
+    margin: 0 auto;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
 .header {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 h1 {
@@ -15,12 +24,61 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
-    border-left: 20px;
-    border-right: 20px;
+    border-left: 100px;
+    border-right: 100px;
+    margin-bottom: 20px;
 }
 
+.topContent {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    font-size: small;
+    padding-left: 10px;
+    font-size: 50px;
+}
 
+.author {
+    position: absolute;
+    bottom: 700px;
 
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40px;
+    padding-right: 250px;
+}
+
+.fa {
+    padding: 10px;
+    text-align: center;
+    margin: 25px 5px;
+    font-size: 35px;
+    width: 35px;
+    height: 35px;
+}
+
+.fa-twitter {
+    font-size: larger;
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-facebook {
+    text-align: center;
+    font-size: larger;
+    background: #3b5998;
+    color: white;
+}
+
+.share {
+    position: relative;;
+    justify-content: flex-end;
+    border-style: solid;
+    padding: 5px;
+}
 
 
 
