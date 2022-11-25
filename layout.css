@@ -53,16 +53,17 @@ h4 {
 
 .author {
     position: absolute;
-    bottom: 675px;
-    padding-left: 150px;
-
+    bottom: 625px;
+    padding-left: 225px;
 }
 
 .socialIcons {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
-    margin-top: -40px;
+    margin-top: -60px;
     padding-right: 250px;
+
 }
 
 .fa {
@@ -71,13 +72,14 @@ h4 {
     margin: 25px 5px;
     font-size: 35px;
     width: 35px;
-    height: 35px;
+    height: 20px;
 }
 
 .fa-twitter {
     font-size: larger;
     background: #55ACEE;
     color: white;
+    margin-right: 190px;
 }
 
 .fa-facebook {
@@ -85,27 +87,109 @@ h4 {
     font-size: larger;
     background: #3b5998;
     color: white;
+    margin-right: 3px;
 }
 
 .share {
-    position: relative;;
-    justify-content: flex-end;
+    position: absolute;
     border-style: solid;
-    padding: 5px;
+    padding: 30px 30px;
+    padding-bottom: 1px;
+    padding-top: 6px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    right: 675px;
+    bottom: 630px;
 }
 
+img {
+    display: flex;
+    justify-content: center;
+    margin-left: 190px;
+    width: 700px;
+}
 
+.lore, .ipsum {
+    padding-left: 190px;
+    font-size: 30px;
+}
 
+.ipsum {
+    margin-top: -25px;
+}
 
+.midPs {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 200px;
+    padding-right: 20px;
+    width: 700px;
+    margin-top: -50px;
+    font-size: 27px;
+}
 
+.midPs2 {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 200px;
+    padding-right: 20px;
+    width: 700px;
+    margin-top: -50px;
+    font-size: 27px;
 
+}
+
+.borderBox {
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 190px;
+    width: 700px;
+}
+
+.info, .rec {
+    font-size: x-large;
+}
+
+.info {
+    margin-top: 5px;
+    padding-left: 25px;
+    margin-bottom: -15px;
+}
+
+.rec {
+    margin-bottom: -15px;
+    padding-left: 80px;
+}
+
+.footerImage {
+    display: absolute;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 475px;
+    margin-top: -50px;
+    padding-bottom: 50px;
+    width: 475px;
+    font-size: 20px;
+}
 
 ul {
     list-style-type: none;
     color: black;
 }
+
+li {
+    font-size: 22px;
+}
 ul li:before {
-    content: '\2014';
+    content: '\2012';
     position: absolute;
     margin-left: -20px;
 }
